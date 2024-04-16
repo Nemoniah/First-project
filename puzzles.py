@@ -30,7 +30,7 @@ def second_puzzle():
             exit()
         else:
             print(f'''
-"Who the hell is {answer2}?" The spellbalde image looks confused at first but then shrugs. "Eh, whatever. That's still
+"Who the hell is {answer2}?" The spellblade image looks confused at first but then shrugs. "Eh, whatever. That's still
 wrong. Damn, you're so stupid it's impressive!"
 And just as it finishes a massive stone plate drops from the ceiling and covers the entire hall.
 You'd say something about not being impressively stupid but that's pretty hard when you're flatter than a pancake.
@@ -61,7 +61,7 @@ def third_puzzle():
             if direction == "back" or direction == "b":
                 text.third_puzzle_back_game_over()
                 exit()
-            if direction == "foward" or direction == "a":
+            if direction == "forward" or direction == "a":
                 text.third_puzzle_back_dead()
                 exit()
             else:
